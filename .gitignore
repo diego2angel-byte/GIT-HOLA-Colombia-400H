@@ -1,4 +1,24 @@
-ssh_key_git_hub
-ssh_key_git_hub.pub
-ssh_key_git_hub
-ssh_key_git_hub.pub
+# Dependencias
+node_modules/
+
+# Configuración y claves
+config.js
+.env
+.env.*
+!.env.example
+
+# Compilados y caché
+dist/
+.angular/
+coverage/
+*.log
+
+# Fotos subidas (se conserva la carpeta)
+foto/*
+!foto/.gitkeep
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
